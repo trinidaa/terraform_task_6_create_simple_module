@@ -10,5 +10,5 @@ variable "storage_account_name" {
 
 variable "location" {
   description = "resources location"
-  default     = "West US"
+  default     = "Azure region"
 }
