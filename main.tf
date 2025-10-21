@@ -1,4 +1,4 @@
 module "resource_group_storage" {
-  source  = "trinidaa/terraform-azurerm-modules/resource-group/azurerm"
-  version = "1.0.7"
+  source  = "github.com/trinidaa/terraform-azurerm-modules//resource-group/azurerm"
+  version = "v1.0.0"
 }
