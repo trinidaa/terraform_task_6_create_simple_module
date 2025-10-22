@@ -60,8 +60,8 @@ jobs:
     - name: Terraform Fmt
       run: terraform fmt -check -recursive -diff
   
-    - name: Terraform Init
-      run: terraform init
+#    - name: Terraform Init
+#      run: terraform init
   
     - name: Terraform Validate
       run: terraform validate
